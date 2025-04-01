@@ -1,1 +1,41 @@
-hello!! world
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Building a PostCard</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+		<div class="postcard">
+			<div class="postcard-header">
+				<h1>My Postcard</h1>
+				<img
+					src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/e63a7916530cc850bd92aa1c2e19191837fb5c80/.learn/assets/4geeks.png"
+					alt="Logo 4Geeks"
+				/>
+			</div>
+			<div class="postcard-body">
+				<div class="body-left"></div>
+				<div class="body-right">
+					<p><strong> how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!</strong></p>
+					<p><strong> is so cool, can't wait to start doing more stuff!</strong></p>
+				</div>
+				<form action="/action_page.php" class="postcard-form">
+					<label for="name">Some Name:</label>
+					<input type="text" id="name" name="name" required /><br />
+
+					<label for="email">Some Email:</label>
+					<input type="email" id="email" name="email" required /><br />
+
+					<label for="comment">Some comment:</label>
+					<input type="comment" id="comment" name="comment" /><br />
+				</form>
+			</div>
+			<div class="postcard-footer">
+				<button>Send My Postcard</button>
+			</div>
+		</div>
+	</body>
+</html>
